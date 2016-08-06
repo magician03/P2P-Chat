@@ -19,7 +19,7 @@ Example:
 node peer.js <your name> <otheruser1> <otheruser2> <otheruser3>
 ```
 
-#######This runs on NodeJS, so make sure you have it and NPM too.
+######This runs on NodeJS, so make sure you have it and NPM too.
 
 Run this commands to install the packages if they aren't working well
 ```
