@@ -22,7 +22,8 @@ node peer.js <your name> <otheruser1> <otheruser2> <otheruser3>
 <aside class="notice">
 This runs on NodeJS, so make sure that you have it and NPM too.
 </aside>
-This runs on NodeJS, so make your install it and NPM too.
+
+This runs on NodeJS, so make sure you have it and NPM too.
 
 Run this commands to install the packages if they aren't working well
 ```
