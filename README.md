@@ -18,11 +18,10 @@ Example:
 ```
 node peer.js <your name> <otheruser1> <otheruser2> <otheruser3>
 ```
+:warning: Username is the unique thing and no two users can have same username at an instance, error message will thrown if that happens
 
-<aside class="notice">
-This runs on NodeJS, so make sure that you have it and NPM too.
-</aside>
-This runs on NodeJS, so make your install it and NPM too.
+
+:point_right: This runs on NodeJS, so make sure you have it and NPM too
 
 Run this commands to install the packages if they aren't working well
 ```

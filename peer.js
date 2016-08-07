@@ -17,7 +17,7 @@ var received = {};
 //registering for multicast-dns
 register(me);
 
-//gets the available connections and and it inputs
+//gets the available connections and and its inputs
 swarm.on('connection', function (socket, id) {
   console.log('info> direct connection to', id);
 
@@ -46,7 +46,7 @@ process.stdin.on('data', function (data) {
 });
 });
 
-//username hasing
+//username hasing to port
 function toAddress (name) {
   return name + '.local:' + toPort(name);
 }
