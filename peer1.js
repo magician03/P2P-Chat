@@ -19,7 +19,14 @@ register(me);
 
 //gets the available connections and and it inputs
 swarm.on('connection', function (socket, id) {
-  console.log('info> direct connection to', id);
+  console.log('new_peer>', id);
+
+  // var username = id.split('.')[0];
+  // var newUser = document.createElement('div');
+  // newUser.setAttribute('class', 'peer');
+  // newUser.innerHTML = username;
+
+  // document.getElementById('peer-box').appendChild(newUser);
 
   socket = jsonStream(socket)
   socket.on('data', function (data) {
@@ -39,7 +46,7 @@ process.stdin.on('data', function (data) {
 });
 });
 
-//username hasing
+//username hasingx
 function toAddress (name) {
   return name + '.local:' + toPort(name);
 }
