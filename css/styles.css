@@ -8,3 +8,12 @@
     margin: 5px;
     padding: 20px;
 }
+
+.message-input {
+	padding: 20px 0;
+	margin: 0;
+}
+
+.chatbox {
+	padding: 25px 0px;
+}
