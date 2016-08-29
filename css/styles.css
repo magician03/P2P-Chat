@@ -1,3 +1,10 @@
-* {
-	
+.peer {
+    padding: 12px;
+}
+
+.my-chat, .others-chat {
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #bbb;
+    margin: 5px;
+    padding: 20px;
 }
