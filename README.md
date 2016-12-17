@@ -2,6 +2,9 @@
 This is a chat application based on P2P network with no-one tracking the messages in between. It is a fully secured 
 as one else can view the messages between a peer connection. This is built on npm modules mostly written by mafintosh.
 
+##### Project Maintainter: [magician03](https://www.github.com/magician03) (Diwakar) | [himanshub16](https://github.com/himanshub16) (Himanshu)
+                         
+
 ###Usage:
 For user one to open the connection
 ```
