@@ -5,7 +5,7 @@ as one else can view the messages between a peer connection. This is built on np
 ##### Project Maintainter: [magician03](https://www.github.com/magician03) (Diwakar) | [himanshub16](https://github.com/himanshub16) (Himanshu)
                          
 
-###Usage:
+### Usage:
 For user one to open the connection
 ```
 node peer.js <user1> <user2>
@@ -26,7 +26,7 @@ node peer.js <your name> <otheruser1> <otheruser2> <otheruser3>
 
 :point_right: This runs on NodeJS, so make sure you have it and NPM too
 
-Run this commands to install the packages if they aren't working well
+Run these commands to install the packages if they aren't working well
 ```
 npm install lookup-multicast-dns
 npm install fully-connected-topology
